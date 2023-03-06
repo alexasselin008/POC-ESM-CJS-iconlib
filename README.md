@@ -13,20 +13,37 @@ To test in CRA:
 Tested with the following structure and it works
 
 icon-library
+
 ├── src
+
 │   ├── generated-components
+
 │   │   ├── helpful-hands
+
 │   │   │   ├── HelpfulHands.tsx
+
 │   │   │   ├── index.ts
+
 │   │   ├── icons
+
 │   │   │   ├── AddMajorIcon.tsx wrapped in createIcon  from orbit
+
 │   │   │   ├── index.ts
+
 │   │   ├── illustrations
+
 │   │   │   ├── NoResultsIllustration.tsx
+
 │   │   │   ├── index.ts
+
 │   │   ├── spot-icons
+
 │   │   │   ├── MigrateTeamsSpotIcon.tsx wrapped in createIcon from SpotIcon.js
+
 │   │   │   ├── index.ts
+
 │   │   ├── index.ts (export all 4 other folders)
+
 │   │   ├── SpotIcons.ts 
+
 │   ├── index.ts (export src/generated-components and SpotIcon)
