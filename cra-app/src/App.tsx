@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { AddMajorIconSource } from "@alexasselin008/icons"
+import { AddMajorIconSource, Schedule80HandIconSource, NoResultsIllustrationSource, MigrateTeamsSpotIconSource, AddMajorIcon, MigrateTeamsSpotIcon } from "@alexasselin008/icons"
+
+// const Test = createIcon(MigrateTeamsSpotIconSource);
 
 function App() {
   return (
@@ -10,7 +12,10 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
-          <AddMajorIconSource fill="blue" />
+          <AddMajorIconSource aria-label="" fill="blue" />
+          <Schedule80HandIconSource aria-label="" fill="red" />
+          <NoResultsIllustrationSource aria-label="" fill="green" />
+          <MigrateTeamsSpotIconSource aria-label="" fill="yellow" />
         </p>
         <a
           className="App-link"
@@ -20,6 +25,8 @@ function App() {
         >
           Learn React
         </a>
+        <AddMajorIcon />
+        <MigrateTeamsSpotIcon aria-label="" fill="yellow"  />
       </header>
     </div>
   );
